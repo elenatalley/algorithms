@@ -18,6 +18,11 @@ temp = num1 # 10
 num1 = num2 # 20
 num2 = temp # 10
 
+# OR
+x = 5
+y = 10
+x, y = y, x
+
 '''
 prime or not 
 '''
