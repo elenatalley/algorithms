@@ -1,14 +1,17 @@
-def factorial(x):
-    """This is a recursive function
-    to find the factorial of an integer"""
-
-    if x == 1:
-        return 1
+def F(n):
+    if n < 11:
+        print(n)
+        F(n+4)
+        F(n*2)
     else:
-        return (x * factorial(x-1))
+        print(f"cycle is over for {n}")
 
+F(5)
 
-num = 6
-print("The factorial of", num, "is", factorial(num))
-
-
+"""
+median
+"""
+num_list  = [2,6,5]
+num_list.sort()
+num_list[len(num_list) // 2]
+print(num_list)
